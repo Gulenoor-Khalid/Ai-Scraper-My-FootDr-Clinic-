@@ -1,4 +1,4 @@
-My FootDr Clinic AI Scraper
+# My FootDr Clinic AI Scraper
 
 Scrapes the archived My FootDr clinic directory from the Wayback Machine and exports a structured CSV file containing clinic details.
 
@@ -31,20 +31,20 @@ Graceful error handling & rate-limiting
 
 Uses lightweight stack: requests + BeautifulSoup
 
-📂 Project Structure
+# Project Structure
 ├── myfootdr_scraper.py      # Main scraping script
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
 
-🚀 Getting Started
+# Getting Started
 1. Clone the repository
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
-2. Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-3. Run the scraper
+# Run the scraper
 python myfootdr_scraper.py
 
 
@@ -55,7 +55,7 @@ clinics_myfootdr.csv
 
 in the project directory.
 
-📝 Output Format
+# Output Format
 
 The generated CSV file contains the following columns:
 
@@ -73,13 +73,25 @@ Certain clinics may not have email or services listed.
 
 Fallback logic handles missing structure, but results may vary.
 
-🛠️ Technologies Used
+# Technologies Used
+
+## Backend
 
 Python 3
 
-Requests
+requests
 
 BeautifulSoup4
+
+tqdm
+
+## Frontend
+
+React 18
+
+Vite
+
+Tailwind (optional if you added it)
 
 🤝 Contributing
 
