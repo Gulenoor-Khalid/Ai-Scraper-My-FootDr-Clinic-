@@ -101,3 +101,9 @@ If you’d like to improve parsing, add validations, or contribute enhancements,
 📄 License
 
 This project is licensed under the MIT License
+<!--
+Author: Gule Noor
+Role: AI Engineer, Generative AI Developer
+Keywords: AI agents, generative AI, automation, smart infrastructure
+-->
+
